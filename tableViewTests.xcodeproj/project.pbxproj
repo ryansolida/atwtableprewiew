@@ -14,6 +14,7 @@
 		28D1155F1AC6C8DA007E3755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D1155E1AC6C8DA007E3755 /* Images.xcassets */; };
 		28D115621AC6C8DA007E3755 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D115601AC6C8DA007E3755 /* LaunchScreen.xib */; };
 		28D1156E1AC6C8DA007E3755 /* tableViewTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1156D1AC6C8DA007E3755 /* tableViewTestsTests.swift */; };
+		28D115781AC6C99B007E3755 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D115771AC6C99B007E3755 /* TableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		28D115671AC6C8DA007E3755 /* tableViewTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D1156C1AC6C8DA007E3755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28D1156D1AC6C8DA007E3755 /* tableViewTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewTestsTests.swift; sourceTree = "<group>"; };
+		28D115771AC6C99B007E3755 /* TableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				28D115541AC6C8DA007E3755 /* AppDelegate.swift */,
 				28D115591AC6C8DA007E3755 /* ViewController.swift */,
 				28D1155B1AC6C8DA007E3755 /* Main.storyboard */,
+				28D115771AC6C99B007E3755 /* TableTableViewController.swift */,
 				28D1155E1AC6C8DA007E3755 /* Images.xcassets */,
 				28D115601AC6C8DA007E3755 /* LaunchScreen.xib */,
 				28D115561AC6C8DA007E3755 /* tableViewTests.xcdatamodeld */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D115781AC6C99B007E3755 /* TableTableViewController.swift in Sources */,
 				28D1155A1AC6C8DA007E3755 /* ViewController.swift in Sources */,
 				28D115551AC6C8DA007E3755 /* AppDelegate.swift in Sources */,
 				28D115581AC6C8DA007E3755 /* tableViewTests.xcdatamodeld in Sources */,
@@ -411,6 +415,7 @@
 				28D115731AC6C8DA007E3755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28D115741AC6C8DA007E3755 /* Build configuration list for PBXNativeTarget "tableViewTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				28D115761AC6C8DA007E3755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
